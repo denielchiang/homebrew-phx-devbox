@@ -7,6 +7,6 @@ class Phx < Formula
 
   def install
     bin.install "bin/phx"
-    prefix.install "Dockerfile", "docker-compose.yml", "docker-entrypoint.sh"
+    prefix.install Dir["Dockerfile", "docker-compose.yml", "docker-entrypoint.sh"]
   end
 end
