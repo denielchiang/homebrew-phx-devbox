@@ -2,7 +2,7 @@ class Phx < Formula
   desc "Phoenix Docker project helper"
   homepage "https://github.com/denielchiang/phx-devbox"
   url "https://github.com/denielchiang/phx-devbox/releases/download/v0.1.5/phx-devbox.tar.gz"
-  sha256 "4f9464d0c1f1d86d767af84fab23be35786e7bf51a6d1175d235bb027f5bdcb8"
+  sha256 "0a716b46e26b38ddbf402430af4d8888c8e22b6301a57ab9e6f7e83c3ea402a2"
   version "0.1.5"
 
   def install
